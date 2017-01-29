@@ -30,3 +30,8 @@ variable "environment" {
   default     = "playground"
   description = "The name of our sub project"
 }
+
+variable "ssl_cert" {
+  default     = "id_of_the_certificate_in_elb"
+  description = "ID of the SSL certificate"
+}
